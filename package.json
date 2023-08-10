@@ -1,0 +1,28 @@
+{
+  "name": "simple-monorepo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.3.1",
+  "workspaces": [
+    "packages/*",
+    "app"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.1",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}

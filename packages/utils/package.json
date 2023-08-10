@@ -1,0 +1,10 @@
+{
+  "name": "@soltan/utils",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "scripts": {
+    "typecheck": "yarn run -T tsc ",
+    "build": "yarn run -T vite build"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "ignorePatterns": ["dist", "node_modules", "!.storybook", "storybook-static"],
+  "extends": ["react-app"],
+  "rules": {
+    // "@typescript-eslint/consistent-type-imports": ["error"],
+    // "import/no-duplicates": ["error", {"prefer-inline": true}],
+    // "import/consistent-type-specifier-style": ["error", "prefer-top-level"],
+    "@typescript-eslint/no-import-type-side-effects": "error"
+  }
+}

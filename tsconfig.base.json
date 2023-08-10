@@ -1,0 +1,38 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      // Type Checking
+      "strict": true,
+      // Modules
+      "baseUrl": ".",
+      "jsx": "react-jsx",
+      "types": ["vitest/globals"],
+      "rootDir": ".",
+      "moduleResolution": "bundler",
+      "module": "esnext",
+      // Emit
+      "sourceMap": true,
+      "declaration": true,
+      "importHelpers": true,
+      "noEmit": true,
+      // JavaScript Support
+      // Editor Support
+      // Interop Constraints
+      "verbatimModuleSyntax": true,
+      // Backwards Compatibility
+      // Language and Environment
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "ESNext",
+      "lib": ["ESNext", "dom"],
+      // Compiler Diagnostics
+      // Projects
+      // Output Formatting
+      // Completeness
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true
+      // Command Line
+      // Watch Options
+    },
+    "exclude": ["node_modules"]
+  }
